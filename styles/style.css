@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+/* Highlight rows where service is expiring soon */
+.table-warning {
+    background-color: #fff3cd; /* Light yellow background */
+}
