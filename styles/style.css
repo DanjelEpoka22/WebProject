@@ -146,7 +146,7 @@ table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Buttons */
+
 .btn {
     background-color: #4caf50;
     color: #fff;
@@ -163,7 +163,7 @@ table tr:nth-child(even) {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 footer {
     background-color: #34495e;
     color: white;
@@ -176,7 +176,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Forms */
+
 form {
     background: #fff;
     padding: 2rem;
@@ -204,7 +204,7 @@ form select:focus {
     outline: none;
 }
 
-/* Quick Actions */
+
 .quick-actions {
     display: flex;
     gap: 1rem;
@@ -226,7 +226,7 @@ form select:focus {
     color: #fff;
     transform: scale(1.05);
 }
-/* Snowfall effect */
+
 .snowflake {
     position: fixed;
     top: -10px;
@@ -238,7 +238,7 @@ form select:focus {
     animation: fall 10s infinite linear;
 }
 
-/* Snowflakes fall animation */
+
 @keyframes fall {
     0% {
         transform: translateX(0) translateY(0);
@@ -247,7 +247,7 @@ form select:focus {
         transform: translateX(100px) translateY(100vh);
     }
 }
-/* Global Styling for the Dark Mode Toggle Button */
+
 .btn-theme-toggle {
     position: fixed;
     top: 20px;
@@ -306,36 +306,36 @@ body.dark-mode .btn-theme-toggle {
 body.dark-mode .btn-theme-toggle:hover {
     background-color: #f57c00;
 }
-/* Meme Video Container */
+
 .meme-container {
     position: relative;
-    max-width: 80%; /* Limit the maximum width */
+    max-width: 80%; 
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Meme Video */
+
 #meme-video {
-    width: 100%; /* Make the video responsive */
-    max-width: 600px; /* Set a maximum width to keep it from becoming too large */
-    border-radius: 8px; /* Optional, for rounded corners */
+    width: 100%; 
+    max-width: 600px; 
+    border-radius: 8px; 
 }
 
-/* Meme Caption */
+
 .meme-caption {
     font-size: 18px;
     margin-top: 10px;
     color: #333;
 }
 
-/* Button Styling */
+
 #show-meme-btn, #close-meme {
     font-size: 16px;
     padding: 10px 20px;
     margin-top: 15px;
 }
 
-/* Styling for the Close button */
+
 #close-meme {
     background-color: #dc3545;
     color: white;
@@ -343,7 +343,7 @@ body.dark-mode .btn-theme-toggle:hover {
     cursor: pointer;
 }
 
-/* Style for Close button when hovered */
+
 #close-meme:hover {
     background-color: #c82333;
 }
